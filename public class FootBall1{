@@ -1,0 +1,6 @@
+public class FootBall1{
+	static String teamName = "RCB";
+	static{
+	System.out.println("The team is "+teamName);
+	}
+}
