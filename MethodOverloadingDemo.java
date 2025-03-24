@@ -92,7 +92,7 @@ public class MethodOverloadingDemo {
         return numbers;
     }
 
-    public static void main(String[] args) {
+   public static void main(String[] args) {
         MethodOverloadingDemo obj = new MethodOverloadingDemo();
 
         // Demonstrating method overloading
@@ -111,8 +111,7 @@ public class MethodOverloadingDemo {
         obj.addNumber(30);
 
         System.out.print("Stored Numbers: ");
-        for (int num : obj.getNumbers()) { // Fixed method call
+        for (int num : obj.getNumbers()) {
             System.out.print(num + " ");
         }
     }
-}
