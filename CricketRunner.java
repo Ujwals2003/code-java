@@ -3,4 +3,5 @@ public class CricketRunner{
 	{
 		Cricket2.matchDetails("virat","ABD","DK");
 	}
+	
 }
